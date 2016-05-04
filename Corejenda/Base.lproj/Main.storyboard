@@ -1,25 +1,389 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LK1-Mk-BaT">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Main View Controller-->
+        <scene sceneID="bts-vk-vi5">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9hw-N4-h9x" customClass="MainViewController" customModule="Corejenda" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="rNJ-7Q-kGY"/>
+                        <viewControllerLayoutGuide type="bottom" id="Uzr-St-B0I"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="FH0-oK-mcn">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qlk-Ne-2r2">
+                                <rect key="frame" x="250.5" y="285" width="99" height="30"/>
+                                <state key="normal" title="View Calendar"/>
+                                <connections>
+                                    <action selector="viewCalendarTapped:" destination="9hw-N4-h9x" eventType="touchUpInside" id="8qd-Uy-nD7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVI-v2-OST">
+                                <rect key="frame" x="277" y="339" width="46" height="30"/>
+                                <state key="normal" title="Right"/>
+                                <connections>
+                                    <action selector="right:" destination="9hw-N4-h9x" eventType="touchUpInside" id="JD0-2X-i9u"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Qlk-Ne-2r2" firstAttribute="centerY" secondItem="FH0-oK-mcn" secondAttribute="centerY" id="50H-YV-X0X"/>
+                            <constraint firstItem="Qlk-Ne-2r2" firstAttribute="centerX" secondItem="FH0-oK-mcn" secondAttribute="centerX" id="s9o-6a-2f7"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="il9-0a-3D7"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="viewCalendar" destination="Qlk-Ne-2r2" id="Gdm-o5-mPQ"/>
+                        <segue destination="j0p-7g-Gh3" kind="show" identifier="MainToRight" id="58C-pJ-YDi"/>
+                        <segue destination="bGe-yS-Nm3" kind="show" identifier="MainToLeft" id="4SR-e4-iee"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0P6-Z9-5yh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="306" y="-222"/>
+        </scene>
+        <!--Left Page View Controller-->
+        <scene sceneID="sRP-H6-hjh">
+            <objects>
+                <viewController id="bGe-yS-Nm3" customClass="LeftPageViewController" customModule="Corejenda" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PFK-EM-6cV"/>
+                        <viewControllerLayoutGuide type="bottom" id="yFv-8W-cRO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dp5-gU-tjO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="ssd-bF-nYi">
+                                <rect key="frame" x="20" y="20" width="560" height="572"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dQE-ig-5Lz" userLabel="MondayStack">
+                                        <rect key="frame" x="5" y="0.0" width="550" height="189"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nB6-Dx-Goi">
+                                                <rect key="frame" x="0.0" y="0.0" width="550" height="24"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="24" id="wja-jM-x4f"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </label>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lOG-Jf-lqM">
+                                                <rect key="frame" x="0.0" y="24" width="550" height="165"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="bGe-yS-Nm3" id="obX-60-E2L"/>
+                                                    <outlet property="delegate" destination="bGe-yS-Nm3" id="Ils-LW-bz3"/>
+                                                </connections>
+                                            </tableView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="lOG-Jf-lqM" firstAttribute="top" secondItem="nB6-Dx-Goi" secondAttribute="bottom" id="c2j-X9-B6Z"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dxH-E4-38q" userLabel="TuesdayStack">
+                                        <rect key="frame" x="5" y="192" width="550" height="189"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tuesday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="taR-62-wHd">
+                                                <rect key="frame" x="0.0" y="0.0" width="550" height="24"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="24" id="bIJ-Ow-gDG"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uB5-0L-94l">
+                                                <rect key="frame" x="0.0" y="24" width="550" height="165"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="bGe-yS-Nm3" id="xAt-AL-XBH"/>
+                                                    <outlet property="delegate" destination="bGe-yS-Nm3" id="9yz-zM-4rP"/>
+                                                </connections>
+                                            </tableView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="uB5-0L-94l" firstAttribute="top" secondItem="taR-62-wHd" secondAttribute="bottom" id="Dq3-VO-o9A"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3sm-vU-vJb" userLabel="WednesdayStack">
+                                        <rect key="frame" x="5" y="384" width="550" height="189"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wednesday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSi-ba-gkN">
+                                                <rect key="frame" x="0.0" y="0.0" width="550" height="24"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="24" id="wYo-x4-cr8"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tq5-5a-Ai7">
+                                                <rect key="frame" x="0.0" y="24" width="550" height="165"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="bGe-yS-Nm3" id="NUx-aZ-1ZG"/>
+                                                    <outlet property="delegate" destination="bGe-yS-Nm3" id="fKo-Wm-sEC"/>
+                                                </connections>
+                                            </tableView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="tq5-5a-Ai7" firstAttribute="top" secondItem="RSi-ba-gkN" secondAttribute="bottom" id="BcE-9u-DeK"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="dQE-ig-5Lz" secondAttribute="trailing" constant="5" id="3Gt-m8-0YG"/>
+                                    <constraint firstAttribute="trailing" secondItem="3sm-vU-vJb" secondAttribute="trailing" constant="5" id="AFM-5c-o8B"/>
+                                    <constraint firstItem="3sm-vU-vJb" firstAttribute="leading" secondItem="ssd-bF-nYi" secondAttribute="leading" constant="5" id="Sel-IM-lcm"/>
+                                    <constraint firstItem="dxH-E4-38q" firstAttribute="leading" secondItem="ssd-bF-nYi" secondAttribute="leading" constant="5" id="bay-H8-8oH"/>
+                                    <constraint firstAttribute="trailing" secondItem="dxH-E4-38q" secondAttribute="trailing" constant="5" id="dL0-dq-cFu"/>
+                                    <constraint firstItem="dQE-ig-5Lz" firstAttribute="leading" secondItem="ssd-bF-nYi" secondAttribute="leading" constant="5" id="rtx-8C-2kj"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="ssd-bF-nYi" secondAttribute="trailing" id="MVl-yr-69I"/>
+                            <constraint firstItem="ssd-bF-nYi" firstAttribute="top" secondItem="PFK-EM-6cV" secondAttribute="bottom" id="QFh-5l-foN"/>
+                            <constraint firstItem="ssd-bF-nYi" firstAttribute="bottom" secondItem="yFv-8W-cRO" secondAttribute="top" constant="-8" id="gCZ-26-6ww"/>
+                            <constraint firstItem="ssd-bF-nYi" firstAttribute="leading" secondItem="dp5-gU-tjO" secondAttribute="leadingMargin" id="oZ8-VA-ALc"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="aP6-hU-pzK" appends="YES" id="BOv-LU-qLp"/>
+                            <outletCollection property="gestureRecognizers" destination="pX4-Pb-Q8X" appends="YES" id="XpN-an-IpH"/>
+                        </connections>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="monday" destination="lOG-Jf-lqM" id="WHD-OP-0zV"/>
+                        <outlet property="tuesday" destination="uB5-0L-94l" id="Nj3-fB-FTM"/>
+                        <outlet property="wednesday" destination="tq5-5a-Ai7" id="xYe-ha-nJY"/>
+                        <segue destination="j0p-7g-Gh3" kind="show" identifier="LeftToRight" id="bUD-QQ-NnF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m7T-VW-nh2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="pX4-Pb-Q8X">
+                    <connections>
+                        <action selector="swipe:" destination="bGe-yS-Nm3" id="6Oo-eS-yBa"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="aP6-hU-pzK">
+                    <connections>
+                        <action selector="swipe:" destination="bGe-yS-Nm3" id="kZc-Au-fya"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-78" y="993"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="FuE-0G-240">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="LK1-Mk-BaT" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JgZ-5G-qvD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9hw-N4-h9x" kind="relationship" relationship="rootViewController" id="Qc3-Kp-41j"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FhA-Ab-cNo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-436" y="-222"/>
+        </scene>
+        <!--Right Page View Controller-->
+        <scene sceneID="FKc-QQ-JJm">
+            <objects>
+                <viewController id="j0p-7g-Gh3" customClass="RightPageViewController" customModule="Corejenda" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="S7p-FF-Tni"/>
+                        <viewControllerLayoutGuide type="bottom" id="FJh-UQ-XLP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lKF-mQ-KjK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="L5k-t7-0O0">
+                                <rect key="frame" x="20" y="20" width="560" height="572"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7y2-HN-X9c" userLabel="ThursdayStack">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="189"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thursday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hXN-nw-D4z">
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="24"/>
+                                                <color key="backgroundColor" white="0.81000000000000005" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="24" id="Sb4-8I-lTA"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </label>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Fo8-Ne-Xon">
+                                                <rect key="frame" x="0.0" y="24" width="560" height="165"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="j0p-7g-Gh3" id="jJo-ww-LmE"/>
+                                                    <outlet property="delegate" destination="j0p-7g-Gh3" id="2fY-f5-UPU"/>
+                                                </connections>
+                                            </tableView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ocw-b0-ksa" userLabel="FridayStack">
+                                        <rect key="frame" x="0.0" y="192" width="560" height="189"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQQ-6d-udD">
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="24"/>
+                                                <color key="backgroundColor" white="0.81000000000000005" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="24" id="WpM-MU-UNF"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </label>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QXS-R0-sJ9">
+                                                <rect key="frame" x="0.0" y="24" width="560" height="165"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="j0p-7g-Gh3" id="Mhh-fY-Yqb"/>
+                                                    <outlet property="delegate" destination="j0p-7g-Gh3" id="8sa-Pp-vaF"/>
+                                                </connections>
+                                            </tableView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="prK-iA-5qx" userLabel="SatSunStack">
+                                        <rect key="frame" x="0.0" y="384" width="560" height="189"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bO9-EQ-hcZ" userLabel="SaturdayStack">
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="189"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saturday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpE-gV-MvW">
+                                                        <rect key="frame" x="0.0" y="0.0" width="560" height="24"/>
+                                                        <color key="backgroundColor" white="0.81000000000000005" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="24" id="KQk-yC-PiK"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </label>
+                                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YXH-vR-rnd">
+                                                        <rect key="frame" x="0.0" y="24" width="560" height="165"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <connections>
+                                                            <outlet property="dataSource" destination="j0p-7g-Gh3" id="Z3L-96-eJd"/>
+                                                            <outlet property="delegate" destination="j0p-7g-Gh3" id="EMZ-xO-8De"/>
+                                                        </connections>
+                                                    </tableView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Gz3-nc-diP" userLabel="SundayStack">
+                                                <rect key="frame" x="560" y="0.0" width="0.0" height="189"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="22p-eT-Hea" userLabel="Sunday">
+                                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="24"/>
+                                                        <color key="backgroundColor" white="0.81000000000000005" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="24" id="R12-Ek-FpE"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </label>
+                                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kMY-C4-rfZ">
+                                                        <rect key="frame" x="0.0" y="24" width="0.0" height="165"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <connections>
+                                                            <outlet property="dataSource" destination="j0p-7g-Gh3" id="hm7-KL-vBB"/>
+                                                            <outlet property="delegate" destination="j0p-7g-Gh3" id="bwP-Ns-00h"/>
+                                                        </connections>
+                                                    </tableView>
+                                                </subviews>
+                                                <gestureRecognizers/>
+                                            </stackView>
+                                        </subviews>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="ZVk-jH-4oI" appends="YES" id="mEZ-KS-Zfd"/>
+                                            <outletCollection property="gestureRecognizers" destination="Q59-LE-i8I" appends="YES" id="SzQ-pc-yIs"/>
+                                        </connections>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="L5k-t7-0O0" firstAttribute="leading" secondItem="lKF-mQ-KjK" secondAttribute="leadingMargin" id="BtM-N4-i0L"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="L5k-t7-0O0" secondAttribute="trailing" id="R5z-LT-3ge"/>
+                            <constraint firstItem="L5k-t7-0O0" firstAttribute="bottom" secondItem="FJh-UQ-XLP" secondAttribute="top" constant="-8" id="iCV-YS-z1c"/>
+                            <constraint firstItem="L5k-t7-0O0" firstAttribute="top" secondItem="S7p-FF-Tni" secondAttribute="bottom" id="wEI-6K-mgQ"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="39q-80-gbQ" appends="YES" id="0u3-1A-Xgf"/>
+                            <outletCollection property="gestureRecognizers" destination="xxB-88-YoJ" appends="YES" id="f4x-wz-O2G"/>
+                        </connections>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="friday" destination="QXS-R0-sJ9" id="uXf-aO-vjF"/>
+                        <outlet property="satStack" destination="bO9-EQ-hcZ" id="BRO-dL-eLV"/>
+                        <outlet property="satSunStack" destination="prK-iA-5qx" id="50A-oA-agc"/>
+                        <outlet property="saturday" destination="YXH-vR-rnd" id="Lyg-y8-A0r"/>
+                        <outlet property="sunStack" destination="Gz3-nc-diP" id="Xlc-I9-waU"/>
+                        <outlet property="sunday" destination="kMY-C4-rfZ" id="9i8-RX-jZY"/>
+                        <outlet property="thursday" destination="Fo8-Ne-Xon" id="X36-58-PCe"/>
+                        <segue destination="bGe-yS-Nm3" kind="show" identifier="RightToLeft" id="yaW-a9-nom"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u1t-w1-6zU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="ZVk-jH-4oI">
+                    <connections>
+                        <action selector="swipeInWeekend:" destination="j0p-7g-Gh3" id="oB9-0u-VSb"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="Q59-LE-i8I">
+                    <connections>
+                        <action selector="swipeInWeekend:" destination="j0p-7g-Gh3" id="BbB-oF-4CA"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="xxB-88-YoJ">
+                    <connections>
+                        <action selector="swipe:" destination="j0p-7g-Gh3" id="AUW-OC-9cC"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="39q-80-gbQ">
+                    <connections>
+                        <action selector="swipe:" destination="j0p-7g-Gh3" id="NhU-W3-pgs"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="706" y="993"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="yaW-a9-nom"/>
+        <segue reference="bUD-QQ-NnF"/>
+    </inferredMetricsTieBreakers>
 </document>

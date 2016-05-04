@@ -8,11 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		81A2753A1CA5ADB10088D28E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275391CA5ADB10088D28E /* AppDelegate.swift */; };
-		81A2753C1CA5ADB10088D28E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A2753B1CA5ADB10088D28E /* ViewController.swift */; };
 		81A2753F1CA5ADB10088D28E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A2753D1CA5ADB10088D28E /* Main.storyboard */; };
 		81A275411CA5ADB10088D28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A275401CA5ADB10088D28E /* Assets.xcassets */; };
 		81A275441CA5ADB10088D28E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A275421CA5ADB10088D28E /* LaunchScreen.storyboard */; };
 		81A2754F1CA5ADB10088D28E /* CorejendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A2754E1CA5ADB10088D28E /* CorejendaTests.swift */; };
+		81A2755A1CA5AE1B0088D28E /* LeftPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275591CA5AE1B0088D28E /* LeftPageViewController.swift */; };
+		81A2755B1CA5AE1B0088D28E /* LeftPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275591CA5AE1B0088D28E /* LeftPageViewController.swift */; };
+		81A2755D1CA5B0290088D28E /* AppointmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A2755C1CA5B0290088D28E /* AppointmentCell.swift */; };
+		81A2755E1CA5B0290088D28E /* AppointmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A2755C1CA5B0290088D28E /* AppointmentCell.swift */; };
+		81A275601CA5B29C0088D28E /* RightPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A2755F1CA5B29C0088D28E /* RightPageViewController.swift */; };
+		81A275611CA5B29C0088D28E /* RightPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A2755F1CA5B29C0088D28E /* RightPageViewController.swift */; };
+		81A275631CA5B38F0088D28E /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275621CA5B38F0088D28E /* NavController.swift */; };
+		81A275641CA5B38F0088D28E /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275621CA5B38F0088D28E /* NavController.swift */; };
+		81A275661CA5B3D10088D28E /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275651CA5B3D10088D28E /* Week.swift */; };
+		81A275671CA5B3D10088D28E /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275651CA5B3D10088D28E /* Week.swift */; };
+		81A275691CA5B3D80088D28E /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275681CA5B3D80088D28E /* Day.swift */; };
+		81A2756A1CA5B3D80088D28E /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275681CA5B3D80088D28E /* Day.swift */; };
+		81A2756E1CA5B55E0088D28E /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A2756D1CA5B55E0088D28E /* Appointment.swift */; };
+		81A2756F1CA5B55E0088D28E /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A2756D1CA5B55E0088D28E /* Appointment.swift */; };
+		81A275731CA5B7AB0088D28E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275721CA5B7AB0088D28E /* MainViewController.swift */; };
+		81A275741CA5B7AB0088D28E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275721CA5B7AB0088D28E /* MainViewController.swift */; };
+		81A275761CA5BA380088D28E /* AppointmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81A275751CA5BA380088D28E /* AppointmentCell.xib */; };
+		81A275771CA5BA380088D28E /* AppointmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81A275751CA5BA380088D28E /* AppointmentCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +45,6 @@
 /* Begin PBXFileReference section */
 		81A275361CA5ADB10088D28E /* Corejenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Corejenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A275391CA5ADB10088D28E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81A2753B1CA5ADB10088D28E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		81A2753E1CA5ADB10088D28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81A275401CA5ADB10088D28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81A275431CA5ADB10088D28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +52,15 @@
 		81A2754A1CA5ADB10088D28E /* CorejendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorejendaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A2754E1CA5ADB10088D28E /* CorejendaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorejendaTests.swift; sourceTree = "<group>"; };
 		81A275501CA5ADB10088D28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A275591CA5AE1B0088D28E /* LeftPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftPageViewController.swift; sourceTree = "<group>"; };
+		81A2755C1CA5B0290088D28E /* AppointmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentCell.swift; sourceTree = "<group>"; };
+		81A2755F1CA5B29C0088D28E /* RightPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightPageViewController.swift; sourceTree = "<group>"; };
+		81A275621CA5B38F0088D28E /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		81A275651CA5B3D10088D28E /* Week.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Week.swift; sourceTree = "<group>"; };
+		81A275681CA5B3D80088D28E /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		81A2756D1CA5B55E0088D28E /* Appointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		81A275721CA5B7AB0088D28E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		81A275751CA5BA380088D28E /* AppointmentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppointmentCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +84,8 @@
 		81A2752D1CA5ADB10088D28E = {
 			isa = PBXGroup;
 			children = (
-				81A275381CA5ADB10088D28E /* Corejenda */,
-				81A2754D1CA5ADB10088D28E /* CorejendaTests */,
+				81A275381CA5ADB10088D28E /* Jenda */,
+				81A2754D1CA5ADB10088D28E /* Jenda */,
 				81A275371CA5ADB10088D28E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,26 +99,68 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		81A275381CA5ADB10088D28E /* Corejenda */ = {
+		81A275381CA5ADB10088D28E /* Jenda */ = {
 			isa = PBXGroup;
 			children = (
 				81A275391CA5ADB10088D28E /* AppDelegate.swift */,
-				81A2753B1CA5ADB10088D28E /* ViewController.swift */,
 				81A2753D1CA5ADB10088D28E /* Main.storyboard */,
+				81A2756C1CA5B3EC0088D28E /* Views */,
+				81A2756B1CA5B3E00088D28E /* Models */,
+				81A275711CA5B6050088D28E /* DataLayer */,
 				81A275401CA5ADB10088D28E /* Assets.xcassets */,
 				81A275421CA5ADB10088D28E /* LaunchScreen.storyboard */,
 				81A275451CA5ADB10088D28E /* Info.plist */,
 			);
+			name = Jenda;
 			path = Corejenda;
 			sourceTree = "<group>";
 		};
-		81A2754D1CA5ADB10088D28E /* CorejendaTests */ = {
+		81A2754D1CA5ADB10088D28E /* Jenda */ = {
 			isa = PBXGroup;
 			children = (
 				81A2754E1CA5ADB10088D28E /* CorejendaTests.swift */,
 				81A275501CA5ADB10088D28E /* Info.plist */,
 			);
+			name = Jenda;
 			path = CorejendaTests;
+			sourceTree = "<group>";
+		};
+		81A2756B1CA5B3E00088D28E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81A275651CA5B3D10088D28E /* Week.swift */,
+				81A275681CA5B3D80088D28E /* Day.swift */,
+				81A2756D1CA5B55E0088D28E /* Appointment.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		81A2756C1CA5B3EC0088D28E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81B3C0A71CA6F98A00CAF732 /* AppointmentCell */,
+				81A275591CA5AE1B0088D28E /* LeftPageViewController.swift */,
+				81A2755F1CA5B29C0088D28E /* RightPageViewController.swift */,
+				81A275621CA5B38F0088D28E /* NavController.swift */,
+				81A275721CA5B7AB0088D28E /* MainViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		81A275711CA5B6050088D28E /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataLayer;
+			sourceTree = "<group>";
+		};
+		81B3C0A71CA6F98A00CAF732 /* AppointmentCell */ = {
+			isa = PBXGroup;
+			children = (
+				81A2755C1CA5B0290088D28E /* AppointmentCell.swift */,
+				81A275751CA5BA380088D28E /* AppointmentCell.xib */,
+			);
+			name = AppointmentCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 81A275311CA5ADB10088D28E /* Build configuration list for PBXProject "Corejenda" */;
+			buildConfigurationList = 81A275311CA5ADB10088D28E /* Build configuration list for PBXProject "Jenda" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -178,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81A275441CA5ADB10088D28E /* LaunchScreen.storyboard in Resources */,
+				81A275761CA5BA380088D28E /* AppointmentCell.xib in Resources */,
 				81A275411CA5ADB10088D28E /* Assets.xcassets in Resources */,
 				81A2753F1CA5ADB10088D28E /* Main.storyboard in Resources */,
 			);
@@ -187,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A275771CA5BA380088D28E /* AppointmentCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +266,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81A2753C1CA5ADB10088D28E /* ViewController.swift in Sources */,
+				81A275691CA5B3D80088D28E /* Day.swift in Sources */,
+				81A275631CA5B38F0088D28E /* NavController.swift in Sources */,
+				81A2755A1CA5AE1B0088D28E /* LeftPageViewController.swift in Sources */,
+				81A2756E1CA5B55E0088D28E /* Appointment.swift in Sources */,
+				81A2755D1CA5B0290088D28E /* AppointmentCell.swift in Sources */,
+				81A275601CA5B29C0088D28E /* RightPageViewController.swift in Sources */,
 				81A2753A1CA5ADB10088D28E /* AppDelegate.swift in Sources */,
+				81A275731CA5B7AB0088D28E /* MainViewController.swift in Sources */,
+				81A275661CA5B3D10088D28E /* Week.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +282,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A2756A1CA5B3D80088D28E /* Day.swift in Sources */,
+				81A275641CA5B38F0088D28E /* NavController.swift in Sources */,
+				81A2755B1CA5AE1B0088D28E /* LeftPageViewController.swift in Sources */,
+				81A2756F1CA5B55E0088D28E /* Appointment.swift in Sources */,
+				81A2755E1CA5B0290088D28E /* AppointmentCell.swift in Sources */,
+				81A275611CA5B29C0088D28E /* RightPageViewController.swift in Sources */,
 				81A2754F1CA5ADB10088D28E /* CorejendaTests.swift in Sources */,
+				81A275741CA5B7AB0088D28E /* MainViewController.swift in Sources */,
+				81A275671CA5B3D10088D28E /* Week.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +458,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81A275311CA5ADB10088D28E /* Build configuration list for PBXProject "Corejenda" */ = {
+		81A275311CA5ADB10088D28E /* Build configuration list for PBXProject "Jenda" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81A275511CA5ADB10088D28E /* Debug */,
@@ -390,6 +474,7 @@
 				81A275551CA5ADB10088D28E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81A275561CA5ADB10088D28E /* Build configuration list for PBXNativeTarget "CorejendaTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +483,7 @@
 				81A275581CA5ADB10088D28E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

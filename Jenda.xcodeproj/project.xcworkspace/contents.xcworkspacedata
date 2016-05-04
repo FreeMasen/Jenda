@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Corejenda.xcodeproj">
+      location = "self:/Users/RFM/Documents/Swift/Class Projects/Corejenda/Jenda.xcodeproj">
    </FileRef>
 </Workspace>
