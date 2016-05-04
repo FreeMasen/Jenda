@@ -1,24 +1,44 @@
-//
-//  AppDelegate.swift
-//  Corejenda
-//
-//  Created by Robert Masen on 3/25/16.
-//  Copyright © 2016 Robert Masen. All rights reserved.
-//
-
 import UIKit
+import Google
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 
     var window: UIWindow?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        var configureError: NSError?
+        
+        GGLContext.sharedInstance().configureWithError(&configureError)
+        //assert(configureError == nil, "Error configuring SignIn: \(configureError)")
+        
+        GIDSignIn.sharedInstance().delegate = self
+        
         return true
-    }
 
+    }
+    
+    func application(application: UIApplication, openURL url: NSURL, options: [String: AnyObject]) -> Bool {
+        return GIDSignIn.sharedInstance().handleURL(url, sourceApplication: options[UIApplicationOpenURLOptionsSourceApplicationKey] as? String, annotation: options[UIApplicationOpenURLOptionsAnnotationKey])
+    }
+    
+    func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!, withError error: NSError!) {
+        if error == nil {
+            let token = user.authentication.accessToken
+            
+            CalendarHelper.setToken(token)
+            
+        } else {
+            print("Error Signing In: \(error)")
+        }
+    }
+    
+    func signIn(signIn: GIDSignIn!, didDisconnectWithUser user: GIDGoogleUser!, withError error: NSError!) {
+        
+    }
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BD1E8F64AF2176D6E661657 /* Pods_Corejenda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86943A92FA83CD54469FFECC /* Pods_Corejenda.framework */; };
+		29EBC03C2516D5A7979284B7 /* Pods_CorejendaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64396D2483E72AEE0E1C61EF /* Pods_CorejendaTests.framework */; };
+		8107E0121CA86F1600075556 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8107E0111CA86F1600075556 /* CalendarHelper.swift */; };
+		817F40231CAAF89C001372EF /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 817F40221CAAF89C001372EF /* test.json */; };
 		81A2753A1CA5ADB10088D28E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275391CA5ADB10088D28E /* AppDelegate.swift */; };
 		81A2753F1CA5ADB10088D28E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A2753D1CA5ADB10088D28E /* Main.storyboard */; };
 		81A275411CA5ADB10088D28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A275401CA5ADB10088D28E /* Assets.xcassets */; };
@@ -27,9 +31,10 @@
 		81A2756E1CA5B55E0088D28E /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A2756D1CA5B55E0088D28E /* Appointment.swift */; };
 		81A2756F1CA5B55E0088D28E /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A2756D1CA5B55E0088D28E /* Appointment.swift */; };
 		81A275731CA5B7AB0088D28E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275721CA5B7AB0088D28E /* MainViewController.swift */; };
-		81A275741CA5B7AB0088D28E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275721CA5B7AB0088D28E /* MainViewController.swift */; };
 		81A275761CA5BA380088D28E /* AppointmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81A275751CA5BA380088D28E /* AppointmentCell.xib */; };
 		81A275771CA5BA380088D28E /* AppointmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81A275751CA5BA380088D28E /* AppointmentCell.xib */; };
+		81E65A731CD9A2B900AB69EB /* travis.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 81E65A721CD9A2B900AB69EB /* travis.yaml */; };
+		81E65A741CD9A2C300AB69EB /* travis.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 81E65A721CD9A2B900AB69EB /* travis.yaml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64396D2483E72AEE0E1C61EF /* Pods_CorejendaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CorejendaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8107E0111CA86F1600075556 /* CalendarHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		817F40221CAAF89C001372EF /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = SOURCE_ROOT; };
 		81A275361CA5ADB10088D28E /* Corejenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Corejenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A275391CA5ADB10088D28E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81A2753E1CA5ADB10088D28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +69,12 @@
 		81A2756D1CA5B55E0088D28E /* Appointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
 		81A275721CA5B7AB0088D28E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		81A275751CA5BA380088D28E /* AppointmentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppointmentCell.xib; sourceTree = "<group>"; };
+		81E65A721CD9A2B900AB69EB /* travis.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = travis.yaml; sourceTree = "<group>"; };
+		86943A92FA83CD54469FFECC /* Pods_Corejenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Corejenda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D70FB61052E44C764D1EBB2 /* Pods-Corejenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Corejenda.release.xcconfig"; path = "Pods/Target Support Files/Pods-Corejenda/Pods-Corejenda.release.xcconfig"; sourceTree = "<group>"; };
+		AFE2510D7E10D1CF0B3B0CF7 /* Pods-CorejendaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CorejendaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CorejendaTests/Pods-CorejendaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCCB8CF0F59525562BA801A2 /* Pods-CorejendaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CorejendaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CorejendaTests/Pods-CorejendaTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC8EBE4379371223AB462796 /* Pods-Corejenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Corejenda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Corejenda/Pods-Corejenda.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BD1E8F64AF2176D6E661657 /* Pods_Corejenda.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,18 +90,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29EBC03C2516D5A7979284B7 /* Pods_CorejendaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16F3FBB8AD00DB48982A3A8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC8EBE4379371223AB462796 /* Pods-Corejenda.debug.xcconfig */,
+				9D70FB61052E44C764D1EBB2 /* Pods-Corejenda.release.xcconfig */,
+				AFE2510D7E10D1CF0B3B0CF7 /* Pods-CorejendaTests.debug.xcconfig */,
+				DCCB8CF0F59525562BA801A2 /* Pods-CorejendaTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		81A2752D1CA5ADB10088D28E = {
 			isa = PBXGroup;
 			children = (
+				81E65A721CD9A2B900AB69EB /* travis.yaml */,
 				81A275381CA5ADB10088D28E /* Jenda */,
-				81A2754D1CA5ADB10088D28E /* Jenda */,
+				81A2754D1CA5ADB10088D28E /* JendaTests */,
 				81A275371CA5ADB10088D28E /* Products */,
+				16F3FBB8AD00DB48982A3A8B /* Pods */,
+				DD1161E96ADAEE31750C926B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +132,7 @@
 		81A275381CA5ADB10088D28E /* Jenda */ = {
 			isa = PBXGroup;
 			children = (
+				817F40221CAAF89C001372EF /* test.json */,
 				81A275391CA5ADB10088D28E /* AppDelegate.swift */,
 				81A2753D1CA5ADB10088D28E /* Main.storyboard */,
 				81A2756C1CA5B3EC0088D28E /* Views */,
@@ -115,13 +146,13 @@
 			path = Corejenda;
 			sourceTree = "<group>";
 		};
-		81A2754D1CA5ADB10088D28E /* Jenda */ = {
+		81A2754D1CA5ADB10088D28E /* JendaTests */ = {
 			isa = PBXGroup;
 			children = (
 				81A2754E1CA5ADB10088D28E /* CorejendaTests.swift */,
 				81A275501CA5ADB10088D28E /* Info.plist */,
 			);
-			name = Jenda;
+			name = JendaTests;
 			path = CorejendaTests;
 			sourceTree = "<group>";
 		};
@@ -150,6 +181,7 @@
 		81A275711CA5B6050088D28E /* DataLayer */ = {
 			isa = PBXGroup;
 			children = (
+				8107E0111CA86F1600075556 /* CalendarHelper.swift */,
 			);
 			name = DataLayer;
 			sourceTree = "<group>";
@@ -163,6 +195,15 @@
 			name = AppointmentCell;
 			sourceTree = "<group>";
 		};
+		DD1161E96ADAEE31750C926B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86943A92FA83CD54469FFECC /* Pods_Corejenda.framework */,
+				64396D2483E72AEE0E1C61EF /* Pods_CorejendaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81A275531CA5ADB10088D28E /* Build configuration list for PBXNativeTarget "Corejenda" */;
 			buildPhases = (
+				AE13D5F31D315F17600EA460 /* Check Pods Manifest.lock */,
 				81A275321CA5ADB10088D28E /* Sources */,
 				81A275331CA5ADB10088D28E /* Frameworks */,
 				81A275341CA5ADB10088D28E /* Resources */,
+				5BF964289422CBA496486A44 /* Embed Pods Frameworks */,
+				7E05DA4570A6CFA4A13E4D48 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81A275561CA5ADB10088D28E /* Build configuration list for PBXNativeTarget "CorejendaTests" */;
 			buildPhases = (
+				D80EE1440D512D6062E48E0A /* Check Pods Manifest.lock */,
 				81A275461CA5ADB10088D28E /* Sources */,
 				81A275471CA5ADB10088D28E /* Frameworks */,
 				81A275481CA5ADB10088D28E /* Resources */,
+				6C8394F7CECE994544D121CC /* Embed Pods Frameworks */,
+				71C175E748BF39C60A890476 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,6 +293,8 @@
 			files = (
 				81A275441CA5ADB10088D28E /* LaunchScreen.storyboard in Resources */,
 				81A275761CA5BA380088D28E /* AppointmentCell.xib in Resources */,
+				817F40231CAAF89C001372EF /* test.json in Resources */,
+				81E65A731CD9A2B900AB69EB /* travis.yaml in Resources */,
 				81A275411CA5ADB10088D28E /* Assets.xcassets in Resources */,
 				81A2753F1CA5ADB10088D28E /* Main.storyboard in Resources */,
 			);
@@ -256,10 +305,104 @@
 			buildActionMask = 2147483647;
 			files = (
 				81A275771CA5BA380088D28E /* AppointmentCell.xib in Resources */,
+				81E65A741CD9A2C300AB69EB /* travis.yaml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BF964289422CBA496486A44 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Corejenda/Pods-Corejenda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C8394F7CECE994544D121CC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CorejendaTests/Pods-CorejendaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71C175E748BF39C60A890476 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CorejendaTests/Pods-CorejendaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E05DA4570A6CFA4A13E4D48 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Corejenda/Pods-Corejenda-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE13D5F31D315F17600EA460 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D80EE1440D512D6062E48E0A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		81A275321CA5ADB10088D28E /* Sources */ = {
@@ -273,6 +416,7 @@
 				81A2755D1CA5B0290088D28E /* AppointmentCell.swift in Sources */,
 				81A275601CA5B29C0088D28E /* RightPageViewController.swift in Sources */,
 				81A2753A1CA5ADB10088D28E /* AppDelegate.swift in Sources */,
+				8107E0121CA86F1600075556 /* CalendarHelper.swift in Sources */,
 				81A275731CA5B7AB0088D28E /* MainViewController.swift in Sources */,
 				81A275661CA5B3D10088D28E /* Week.swift in Sources */,
 			);
@@ -289,7 +433,6 @@
 				81A2755E1CA5B0290088D28E /* AppointmentCell.swift in Sources */,
 				81A275611CA5B29C0088D28E /* RightPageViewController.swift in Sources */,
 				81A2754F1CA5ADB10088D28E /* CorejendaTests.swift in Sources */,
-				81A275741CA5B7AB0088D28E /* MainViewController.swift in Sources */,
 				81A275671CA5B3D10088D28E /* Week.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +508,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -404,6 +548,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -411,28 +556,36 @@
 		};
 		81A275541CA5ADB10088D28E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC8EBE4379371223AB462796 /* Pods-Corejenda.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "GTL_BUILT_AS_FRAMEWORK=1";
 				INFOPLIST_FILE = Corejenda/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MCTC.Corejenda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		81A275551CA5ADB10088D28E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D70FB61052E44C764D1EBB2 /* Pods-Corejenda.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "GTL_BUILT_AS_FRAMEWORK=1";
 				INFOPLIST_FILE = Corejenda/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MCTC.Corejenda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
 		81A275571CA5ADB10088D28E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFE2510D7E10D1CF0B3B0CF7 /* Pods-CorejendaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CorejendaTests/Info.plist;
@@ -445,6 +598,7 @@
 		};
 		81A275581CA5ADB10088D28E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCCB8CF0F59525562BA801A2 /* Pods-CorejendaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CorejendaTests/Info.plist;

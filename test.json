@@ -1,0 +1,525 @@
+
+{
+    "kind": "calendar#events",
+    "etag": "\"1459188885863000\"",
+    "summary": "r.f.masen@gmail.com",
+    "updated": "2016-03-28T18:14:45.863Z",
+    "timeZone": "America/Chicago",
+    "accessRole": "owner",
+    "defaultReminders": [
+    ],
+    "nextSyncToken": "CNj0zpn-48sCENj0zpn-48sCGAU=",
+    "items": [
+              {
+              
+              "kind": "calendar#event",
+              "etag": "\"2791956741648000\"",
+              "id": "_6gr3eea28gs44ba38kok8b9k8cq4ab9o6cpk4b9i84rj4dhj8h33ah1h6g",
+              "status": "confirmed",
+              "htmlLink": "https://www.google.com/calendar/event?eid=XzZncjNlZWEyOGdzNDRiYTM4a29rOGI5azhjcTRhYjlvNmNwazRiOWk4NHJqNGRoajhoMzNhaDFoNmdfMjAxNDAzMjggci5mLm1hc2VuQG0",
+              "created": "2014-03-28T03:46:10.000Z",
+              "updated": "2014-03-28T03:46:10.824Z",
+              "summary": "Payday",
+              "creator": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "organizer": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "start": {
+              "date": "2014-03-28"
+              },
+              "end": {
+              "date": "2014-03-29"
+              },
+              "recurrence": [
+                             "RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=FR"
+                             ],
+              "transparency": "transparent",
+              "iCalUID": "4679BD8B-CE1D-4C4E-833B-2A7263DF5D14",
+              "sequence": 0,
+              "reminders": {
+              "useDefault": false
+              }
+              },
+              {
+              
+              "kind": "calendar#event",
+              "etag": "\"2905989852331000\"",
+              "id": "_68qk8d9i8kpjcba674okab9k8ookab9o6oqj0b9h8cs3eea28d0kada188",
+              "status": "confirmed",
+              "htmlLink": "https://www.google.com/calendar/event?eid=XzY4cWs4ZDlpOGtwamNiYTY3NG9rYWI5azhvb2thYjlvNm9xajBiOWg4Y3MzZWVhMjhkMGthZGExODggci5mLm1hc2VuQG0",
+              "created": "2016-01-17T01:42:06.000Z",
+              "updated": "2016-01-17T01:42:06.222Z",
+              "summary": "Rob's 33 1/3 bday party",
+              "creator": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "organizer": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "start": {
+              "dateTime": "2016-05-28T12:00:00-05:00",
+              "timeZone": "America/Chicago"
+              },
+              "end": {
+              "dateTime": "2016-05-28T13:00:00-05:00",
+              "timeZone": "America/Chicago"
+              },
+              "iCalUID": "25D52E36-F91E-4F1E-8650-1C879BCAE5AB",
+              "sequence": 0,
+              "reminders": {
+              "useDefault": false,
+              "overrides": [
+                            {
+                            "method": "popup",
+                            "minutes": 15
+                            }
+                            ]
+              }
+              },
+              {
+              
+              "kind": "calendar#event",
+              "etag": "\"2906276366292000\"",
+              "id": "_6533ghho6d0k8ba38d346b9k650jeba18oskaba285144ha564q44h9l8o",
+              "status": "confirmed",
+              "htmlLink": "https://www.google.com/calendar/event?eid=XzY1MzNnaGhvNmQwazhiYTM4ZDM0NmI5azY1MGplYmExOG9za2FiYTI4NTE0NGhhNTY0cTQ0aDlsOG8gci5mLm1hc2VuQG0",
+              "created": "2016-01-18T17:29:43.000Z",
+              "updated": "2016-01-18T17:29:43.189Z",
+              "summary": "Dr Olseth",
+              "creator": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "organizer": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "start": {
+              "dateTime": "2016-04-14T16:00:00-05:00",
+              "timeZone": "America/Chicago"
+              },
+              "end": {
+              "dateTime": "2016-04-14T17:00:00-05:00",
+              "timeZone": "America/Chicago"
+              },
+              "iCalUID": "1F8F83AD-CCFC-41A7-AF9E-BABBEE14BE5F",
+              "sequence": 0,
+              "reminders": {
+              "useDefault": false
+              }
+              },
+              {
+              
+              "kind": "calendar#event",
+              "etag": "\"2906816606780000\"",
+              "id": "l3r6k8oajegj5lafji6cnlrso0",
+              "status": "confirmed",
+              "htmlLink": "https://www.google.com/calendar/event?eid=bDNyNms4b2FqZWdqNWxhZmppNmNubHJzbzAgci5mLm1hc2VuQG0",
+              "created": "2016-01-21T20:31:43.000Z",
+              "updated": "2016-01-21T20:31:43.390Z",
+              "summary": "Training Ride Kick off",
+              "creator": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "organizer": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "start": {
+              "dateTime": "2016-04-30T08:00:00-05:00"
+              },
+              "end": {
+              "dateTime": "2016-04-30T15:00:00-05:00"
+              },
+              "iCalUID": "l3r6k8oajegj5lafji6cnlrso0@google.com",
+              "sequence": 0,
+              "reminders": {
+              "useDefault": true
+              }
+              },
+              {
+              
+              "kind": "calendar#event",
+              "etag": "\"2908330204966000\"",
+              "id": "_8krj2ha68grj2ba368q48b9k74o4ab9o8gpkab9k6sq34chj8krkacpo6o",
+              "status": "confirmed",
+              "htmlLink": "https://www.google.com/calendar/event?eid=XzhrcmoyaGE2OGdyajJiYTM2OHE0OGI5azc0bzRhYjlvOGdwa2FiOWs2c3EzNGNoajhrcmthY3BvNm8gci5mLm1hc2VuQG0",
+              "created": "2016-01-30T14:44:25.000Z",
+              "updated": "2016-01-30T14:45:39.193Z",
+              "summary": "Falicia",
+              "creator": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "organizer": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "start": {
+              "dateTime": "2016-04-06T18:00:00-05:00",
+              "timeZone": "America/Chicago"
+              },
+              "end": {
+              "dateTime": "2016-04-06T19:00:00-05:00",
+              "timeZone": "America/Chicago"
+              },
+              "iCalUID": "E71EFD71-C24D-490E-8D3E-474223E7E386",
+              "sequence": 1,
+              "reminders": {
+              "useDefault": false,
+              "overrides": [
+                            {
+                            "method": "popup",
+                            "minutes": 1440
+                            }
+                            ]
+              }
+              },
+              {
+              
+              "kind": "calendar#event",
+              "etag": "\"2906713560037000\"",
+              "id": "_6oq30d33clhj4bb4clhj4b9kccr3eb9oc4o64b9o68sj6chlcdi3ed9j64",
+              "status": "confirmed",
+              "htmlLink": "https://www.google.com/calendar/event?eid=XzZvcTMwZDMzY2xoajRiYjRjbGhqNGI5a2NjcjNlYjlvYzRvNjRiOW82OHNqNmNobGNkaTNlZDlqNjRfMjAxNjAxMTJUMjMwMDAwWiByLmYubWFzZW5AbQ",
+              "created": "2016-01-09T18:39:55.000Z",
+              "updated": "2016-02-01T17:46:04.717Z",
+              "summary": "Rob at Class",
+              "creator": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "organizer": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "start": {
+              "dateTime": "2016-01-12T17:00:00-06:00",
+              "timeZone": "America/Chicago"
+              },
+              "end": {
+              "dateTime": "2016-01-12T20:10:00-06:00",
+              "timeZone": "America/Chicago"
+              },
+              "recurrence": [
+                             "RRULE:FREQ=WEEKLY;UNTIL=20160524T220000Z;BYDAY=TU"
+                             ],
+              "iCalUID": "6404cec2-dec2-4c67-8a0b-829325cd7531",
+              "sequence": 0,
+              "reminders": {
+              "useDefault": false
+              }
+              },
+              {
+              
+              "kind": "calendar#event",
+              "etag": "\"2909413573106000\"",
+              "id": "6hvua54tf97eqqob1b4f5bgp28",
+              "status": "confirmed",
+              "htmlLink": "https://www.google.com/calendar/event?eid=Nmh2dWE1NHRmOTdlcXFvYjFiNGY1YmdwMjggci5mLm1hc2VuQG0",
+              "created": "2016-02-05T21:13:06.000Z",
+              "updated": "2016-02-05T21:13:06.553Z",
+              "summary": "Dr. Lofness",
+              "creator": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "organizer": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "start": {
+              "dateTime": "2016-04-27T08:00:00-05:00"
+              },
+              "end": {
+              "dateTime": "2016-04-27T09:00:00-05:00"
+              },
+              "iCalUID": "6hvua54tf97eqqob1b4f5bgp28@google.com",
+              "sequence": 0,
+              "reminders": {
+              "useDefault": true
+              }
+              },
+              {
+              
+              "kind": "calendar#event",
+              "etag": "\"2914405647198000\"",
+              "id": "_64r38gi48l232b9j70o36b9k8h244ba26os3gb9o6t2j2e1p6ooj4ci56s",
+              "status": "confirmed",
+              "htmlLink": "https://www.google.com/calendar/event?eid=XzY0cjM4Z2k0OGwyMzJiOWo3MG8zNmI5azhoMjQ0YmEyNm9zM2diOW82dDJqMmUxcDZvb2o0Y2k1NnMgci5mLm1hc2VuQG0",
+              "created": "2016-03-05T18:33:43.000Z",
+              "updated": "2016-03-05T18:33:43.661Z",
+              "summary": "Haircut",
+              "creator": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "organizer": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "start": {
+              "dateTime": "2016-05-07T11:00:00-05:00",
+              "timeZone": "America/Chicago"
+              },
+              "end": {
+              "dateTime": "2016-05-07T12:00:00-05:00",
+              "timeZone": "America/Chicago"
+              },
+              "iCalUID": "164BDED1-3803-4DDB-B688-87E1896122E7",
+              "sequence": 0,
+              "reminders": {
+              "useDefault": false,
+              "overrides": [
+                            {
+                            "method": "popup",
+                            "minutes": 30
+                            }
+                            ]
+              }
+              },
+              {
+              
+              "kind": "calendar#event",
+              "etag": "\"2916320968890000\"",
+              "id": "lnfjqivi03siqhcpu1f484lcv4",
+              "status": "confirmed",
+              "htmlLink": "https://www.google.com/calendar/event?eid=bG5manFpdmkwM3NpcWhjcHUxZjQ4NGxjdjQgci5mLm1hc2VuQG0",
+              "created": "2016-03-16T20:34:22.000Z",
+              "updated": "2016-03-16T20:34:44.445Z",
+              "summary": "Training Ride",
+              "location": "St Joan of Arc Church Minneapolis, 4537 3rd Ave S, Minneapolis, MN 55419, United States",
+              "creator": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "organizer": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "start": {
+              "dateTime": "2016-04-16T07:00:00-05:00"
+              },
+              "end": {
+              "dateTime": "2016-04-16T10:00:00-05:00"
+              },
+              "iCalUID": "lnfjqivi03siqhcpu1f484lcv4@google.com",
+              "sequence": 0,
+              "reminders": {
+              "useDefault": true
+              }
+              },
+              {
+              
+              "kind": "calendar#event",
+              "etag": "\"2916459465122000\"",
+              "id": "pvjp521k05jpv2296s0qgr5r8c",
+              "status": "confirmed",
+              "htmlLink": "https://www.google.com/calendar/event?eid=cHZqcDUyMWswNWpwdjIyOTZzMHFncjVyOGMgci5mLm1hc2VuQG0",
+              "created": "2016-03-17T15:48:52.000Z",
+              "updated": "2016-03-17T15:48:52.561Z",
+              "summary": "Dr. Lofness",
+              "creator": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "organizer": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "start": {
+              "dateTime": "2016-04-20T08:00:00-05:00"
+              },
+              "end": {
+              "dateTime": "2016-04-20T09:00:00-05:00"
+              },
+              "iCalUID": "pvjp521k05jpv2296s0qgr5r8c@google.com",
+              "sequence": 0,
+              "reminders": {
+              "useDefault": true
+              }
+              },
+              {
+              
+              "kind": "calendar#event",
+              "etag": "\"2917915369364000\"",
+              "id": "_6t23ad266cskcb9g6t1kcb9k8gsjib9o6crk6b9m6opj2cq68p238dpk8k",
+              "status": "confirmed",
+              "htmlLink": "https://www.google.com/calendar/event?eid=XzZ0MjNhZDI2NmNza2NiOWc2dDFrY2I5azhnc2ppYjlvNmNyazZiOW02b3BqMmNxNjhwMjM4ZHBrOGsgci5mLm1hc2VuQG0",
+              "created": "2016-03-26T02:01:24.000Z",
+              "updated": "2016-03-26T02:01:24.732Z",
+              "summary": "Coffee",
+              "creator": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "organizer": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "start": {
+              "dateTime": "2016-04-07T17:00:00-05:00",
+              "timeZone": "America/Chicago"
+              },
+              "end": {
+              "dateTime": "2016-04-07T19:45:00-05:00",
+              "timeZone": "America/Chicago"
+              },
+              "iCalUID": "7D54F39F-07CF-4D99-837C-66313FFD474E",
+              "sequence": 0,
+              "reminders": {
+              "useDefault": false,
+              "overrides": [
+                            {
+                            "method": "popup",
+                            "minutes": 15
+                            }
+                            ]
+              }
+              },
+              {
+              
+              "kind": "calendar#event",
+              "etag": "\"2918197365048000\"",
+              "id": "97nupsbuqre9s8jvdp708om42c",
+              "status": "confirmed",
+              "htmlLink": "https://www.google.com/calendar/event?eid=OTdudXBzYnVxcmU5czhqdmRwNzA4b200MmMgci5mLm1hc2VuQG0",
+              "created": "2016-03-27T17:11:22.000Z",
+              "updated": "2016-03-27T17:11:22.524Z",
+              "summary": "Art-A-Whirl",
+              "creator": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "organizer": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "start": {
+              "date": "2016-05-20"
+              },
+              "end": {
+              "date": "2016-05-22"
+              },
+              "transparency": "transparent",
+              "iCalUID": "97nupsbuqre9s8jvdp708om42c@google.com",
+              "sequence": 0,
+              "reminders": {
+              "useDefault": false
+              }
+              },
+              {
+              
+              "kind": "calendar#event",
+              "etag": "\"2918197547790000\"",
+              "id": "lb3phks76nevnfq14q61etp8s4",
+              "status": "confirmed",
+              "htmlLink": "https://www.google.com/calendar/event?eid=bGIzcGhrczc2bmV2bmZxMTRxNjFldHA4czQgci5mLm1hc2VuQG0",
+              "created": "2016-03-27T17:12:53.000Z",
+              "updated": "2016-03-27T17:12:53.895Z",
+              "summary": "Moving Day?",
+              "creator": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "organizer": {
+              "email": "r.f.masen@gmail.com",
+              "displayName": "Robert Masen",
+              "self": true
+              },
+              "start": {
+              "date": "2016-05-07"
+              },
+              "end": {
+              "date": "2016-05-08"
+              },
+              "transparency": "transparent",
+              "iCalUID": "lb3phks76nevnfq14q61etp8s4@google.com",
+              "sequence": 0,
+              "reminders": {
+              "useDefault": false
+              }
+              },
+              {
+              
+              "kind": "calendar#event",
+              "etag": "\"2918377590050000\"",
+              "id": "14jku61fjtdkrs197bqo4nr8os",
+              "status": "confirmed",
+              "htmlLink": "https://www.google.com/calendar/event?eid=MTRqa3U2MWZqdGRrcnMxOTdicW80bnI4b3Mgci5mLm1hc2VuQG0",
+              "created": "2016-03-23T05:21:53.000Z",
+              "updated": "2016-03-28T18:13:15.025Z",
+              "summary": "Mystery Meat Creation and FSF Prep",
+              "location": "Oanh's House, 4218 Pillsbury Ave. S, Minneapolis",
+              "creator": {
+              "email": "oanhvu.k@gmail.com",
+              "displayName": "Oanh Vu"
+              },
+              "organizer": {
+              "email": "32kklirf409fqulckkekadp5kc@group.calendar.google.com",
+              "displayName": "MNKINO"
+              },
+              "start": {
+              "dateTime": "2016-04-03T12:00:00-05:00"
+              },
+              "end": {
+              "dateTime": "2016-04-03T18:00:00-05:00"
+              },
+              "iCalUID": "14jku61fjtdkrs197bqo4nr8os@google.com",
+              "sequence": 1,
+              "attendees": [
+                            {
+                            "email": "charliemccarron@gmail.com",
+                            "displayName": "Charlie McCarron",
+                            "responseStatus": "accepted"
+                            },
+                            {
+                            "email": "oanhvu.k@gmail.com",
+                            "displayName": "Oanh Vu",
+                            "responseStatus": "needsAction"
+                            },
+                            {
+                            "email": "r.f.masen@gmail.com",
+                            "displayName": "Robert Masen",
+                            "self": true,
+                            "responseStatus": "accepted"
+                            }
+                            ],
+              "reminders": {
+              "useDefault": true
+              }
+              }
+              ]
+}
