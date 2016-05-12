@@ -48,8 +48,6 @@ class CorejendaTests: XCTestCase {
         XCTAssert(appointment.allDayEvent == true)
         
         let secondAppt = Appointment(id: id, title: title, creator: creator, startTime: startTime, endTime: endTime, htmlLink: htmlLink!, status: status, allDayEvent: true, location: location)
-        print(secondAppt.Id)
-        print(secondAppt.Status)
         XCTAssert(secondAppt.Id == id)
         XCTAssert(secondAppt.Title == title)
         XCTAssert(secondAppt.Creator == creator)
@@ -62,10 +60,10 @@ class CorejendaTests: XCTestCase {
     }
     
     func testDayInits() {
-        let title = "testString", creator = "testEmail@gmail.com", startTime = NSDate(), endTime = NSDate(), description = "Testing the Description", location = "location string", htmlLink = "https://github.com/freemasen", status = InviteStatus.Confirmed
+        let title = "testString", creator = "testEmail@gmail.com", startTime = NSDate(), endTime = NSDate(),  location = "location string"
         
         let appointment = Appointment(title: title, creator: creator, startTime: startTime, endTime: endTime, allDayEvent: false)
-        let secondAppointment = Appointment(title: title, creator: creator, startTime: startTime, endTime: endTime, allDayEvent: true, location: nil)
+        let secondAppointment = Appointment(title: title, creator: creator, startTime: startTime, endTime: endTime, allDayEvent: true, location: location)
         
         let dayOfTheWeek = "Monday", date = NSDate(), appointemnts = [appointment, secondAppointment]
         let day = Day(dayOfTheWeek: dayOfTheWeek, date: date, appointments: appointemnts)
@@ -73,7 +71,7 @@ class CorejendaTests: XCTestCase {
         XCTAssert(day.DayOfTheWeek == dayOfTheWeek && day.Date == date && day.Appointments[1] == appointemnts[1])
     }
     
-    func testWeek() {`
+    func testWeek() {
         
     }
     

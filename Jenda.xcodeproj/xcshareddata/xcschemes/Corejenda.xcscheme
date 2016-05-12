@@ -57,8 +57,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "81A275351CA5ADB10088D28E"
-               BuildableName = "Corejenda.app"
-               BlueprintName = "Corejenda"
+               BuildableName = "Jenda.app"
+               BlueprintName = "Jenda"
                ReferencedContainer = "container:Jenda.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -75,8 +75,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "81A275491CA5ADB10088D28E"
-               BuildableName = "CorejendaTests.xctest"
-               BlueprintName = "CorejendaTests"
+               BuildableName = "JendaTests.xctest"
+               BlueprintName = "JendaTests"
                ReferencedContainer = "container:Jenda.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -85,8 +85,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81A275351CA5ADB10088D28E"
-            BuildableName = "Corejenda.app"
-            BlueprintName = "Corejenda"
+            BuildableName = "Jenda.app"
+            BlueprintName = "Jenda"
             ReferencedContainer = "container:Jenda.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -108,8 +108,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81A275351CA5ADB10088D28E"
-            BuildableName = "Corejenda.app"
-            BlueprintName = "Corejenda"
+            BuildableName = "Jenda.app"
+            BlueprintName = "Jenda"
             ReferencedContainer = "container:Jenda.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -127,8 +127,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81A275351CA5ADB10088D28E"
-            BuildableName = "Corejenda.app"
-            BlueprintName = "Corejenda"
+            BuildableName = "Jenda.app"
+            BlueprintName = "Jenda"
             ReferencedContainer = "container:Jenda.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

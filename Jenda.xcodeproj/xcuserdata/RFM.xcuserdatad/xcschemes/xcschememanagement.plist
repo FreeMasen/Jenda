@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Corejenda copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>Corejenda.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>81A275491CA5ADB10088D28E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>81C442EB1CDD1FA40060A350</key>
 		<dict>
 			<key>primary</key>
 			<true/>

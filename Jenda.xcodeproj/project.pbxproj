@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BD1E8F64AF2176D6E661657 /* Pods_Corejenda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86943A92FA83CD54469FFECC /* Pods_Corejenda.framework */; };
+		2504110FA3741F1F4CB43C79 /* Pods_Jenda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92971F54CFF1FB1875F8BBA6 /* Pods_Jenda.framework */; };
 		29EBC03C2516D5A7979284B7 /* Pods_CorejendaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64396D2483E72AEE0E1C61EF /* Pods_CorejendaTests.framework */; };
+		81009BAE1CE18D0C001EE515 /* NewAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81009BAD1CE18D0C001EE515 /* NewAppointmentView.swift */; };
+		81009BAF1CE18D0C001EE515 /* NewAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81009BAD1CE18D0C001EE515 /* NewAppointmentView.swift */; };
+		81009BB11CE25753001EE515 /* ViewAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81009BB01CE25753001EE515 /* ViewAppointmentView.swift */; };
+		81009BB21CE25753001EE515 /* ViewAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81009BB01CE25753001EE515 /* ViewAppointmentView.swift */; };
 		8107E0121CA86F1600075556 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8107E0111CA86F1600075556 /* CalendarHelper.swift */; };
+		812661721CDEE0DE00DE1D81 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812661711CDEE0DE00DE1D81 /* Page.swift */; };
+		812661731CDEE0DE00DE1D81 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812661711CDEE0DE00DE1D81 /* Page.swift */; };
 		817F40231CAAF89C001372EF /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 817F40221CAAF89C001372EF /* test.json */; };
 		81A2753A1CA5ADB10088D28E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275391CA5ADB10088D28E /* AppDelegate.swift */; };
 		81A2753F1CA5ADB10088D28E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A2753D1CA5ADB10088D28E /* Main.storyboard */; };
@@ -22,8 +28,6 @@
 		81A2755E1CA5B0290088D28E /* AppointmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A2755C1CA5B0290088D28E /* AppointmentCell.swift */; };
 		81A275601CA5B29C0088D28E /* RightPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A2755F1CA5B29C0088D28E /* RightPageViewController.swift */; };
 		81A275611CA5B29C0088D28E /* RightPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A2755F1CA5B29C0088D28E /* RightPageViewController.swift */; };
-		81A275631CA5B38F0088D28E /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275621CA5B38F0088D28E /* NavController.swift */; };
-		81A275641CA5B38F0088D28E /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275621CA5B38F0088D28E /* NavController.swift */; };
 		81A275661CA5B3D10088D28E /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275651CA5B3D10088D28E /* Week.swift */; };
 		81A275671CA5B3D10088D28E /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275651CA5B3D10088D28E /* Week.swift */; };
 		81A275691CA5B3D80088D28E /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275681CA5B3D80088D28E /* Day.swift */; };
@@ -33,8 +37,15 @@
 		81A275731CA5B7AB0088D28E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A275721CA5B7AB0088D28E /* MainViewController.swift */; };
 		81A275761CA5BA380088D28E /* AppointmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81A275751CA5BA380088D28E /* AppointmentCell.xib */; };
 		81A275771CA5BA380088D28E /* AppointmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81A275751CA5BA380088D28E /* AppointmentCell.xib */; };
-		81E65A731CD9A2B900AB69EB /* travis.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 81E65A721CD9A2B900AB69EB /* travis.yaml */; };
-		81E65A741CD9A2C300AB69EB /* travis.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 81E65A721CD9A2B900AB69EB /* travis.yaml */; };
+		81C442E91CDD1EF30060A350 /* client_954452056415-ut3v5dc64lvnfvbuqldb6elq2h1v5p46.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81C442E81CDD1EF30060A350 /* client_954452056415-ut3v5dc64lvnfvbuqldb6elq2h1v5p46.apps.googleusercontent.com.plist */; };
+		81C442EA1CDD1EF30060A350 /* client_954452056415-ut3v5dc64lvnfvbuqldb6elq2h1v5p46.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81C442E81CDD1EF30060A350 /* client_954452056415-ut3v5dc64lvnfvbuqldb6elq2h1v5p46.apps.googleusercontent.com.plist */; };
+		81C4430A1CDD21550060A350 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81C443091CDD21550060A350 /* GoogleService-Info.plist */; };
+		81C4430B1CDD21550060A350 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81C443091CDD21550060A350 /* GoogleService-Info.plist */; };
+		81C4430D1CDD24AF0060A350 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C4430C1CDD24AF0060A350 /* Calendar.swift */; };
+		81C4430E1CDD24AF0060A350 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C4430C1CDD24AF0060A350 /* Calendar.swift */; };
+		81C443101CDD5FC20060A350 /* Google.apikey in Resources */ = {isa = PBXBuildFile; fileRef = 81C4430F1CDD5FC20060A350 /* Google.apikey */; };
+		81C443111CDD5FC20060A350 /* Google.apikey in Resources */ = {isa = PBXBuildFile; fileRef = 81C4430F1CDD5FC20060A350 /* Google.apikey */; };
+		D926FA933A1EF8465341406A /* Pods_JendaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D080CB1364B74346611A377F /* Pods_JendaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,33 +59,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C4976D6114F82FBBF37EBED /* Pods-JendaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JendaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JendaTests/Pods-JendaTests.release.xcconfig"; sourceTree = "<group>"; };
+		34A0D1AECA6A2307FEE5C26B /* Pods-Jenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jenda.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jenda/Pods-Jenda.release.xcconfig"; sourceTree = "<group>"; };
+		5FB0F46208FB18A13D2953AD /* Pods-Jenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jenda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jenda/Pods-Jenda.debug.xcconfig"; sourceTree = "<group>"; };
 		64396D2483E72AEE0E1C61EF /* Pods_CorejendaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CorejendaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81009BAD1CE18D0C001EE515 /* NewAppointmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAppointmentView.swift; sourceTree = "<group>"; };
+		81009BB01CE25753001EE515 /* ViewAppointmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAppointmentView.swift; sourceTree = "<group>"; };
 		8107E0111CA86F1600075556 /* CalendarHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		812661711CDEE0DE00DE1D81 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		817F40221CAAF89C001372EF /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = SOURCE_ROOT; };
-		81A275361CA5ADB10088D28E /* Corejenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Corejenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A275361CA5ADB10088D28E /* Jenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A275391CA5ADB10088D28E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81A2753E1CA5ADB10088D28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81A275401CA5ADB10088D28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81A275431CA5ADB10088D28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81A275451CA5ADB10088D28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81A2754A1CA5ADB10088D28E /* CorejendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorejendaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A2754A1CA5ADB10088D28E /* JendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JendaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A2754E1CA5ADB10088D28E /* CorejendaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorejendaTests.swift; sourceTree = "<group>"; };
 		81A275501CA5ADB10088D28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81A275591CA5AE1B0088D28E /* LeftPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftPageViewController.swift; sourceTree = "<group>"; };
 		81A2755C1CA5B0290088D28E /* AppointmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentCell.swift; sourceTree = "<group>"; };
 		81A2755F1CA5B29C0088D28E /* RightPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightPageViewController.swift; sourceTree = "<group>"; };
-		81A275621CA5B38F0088D28E /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
 		81A275651CA5B3D10088D28E /* Week.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Week.swift; sourceTree = "<group>"; };
 		81A275681CA5B3D80088D28E /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		81A2756D1CA5B55E0088D28E /* Appointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
 		81A275721CA5B7AB0088D28E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		81A275751CA5BA380088D28E /* AppointmentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppointmentCell.xib; sourceTree = "<group>"; };
-		81E65A721CD9A2B900AB69EB /* travis.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = travis.yaml; sourceTree = "<group>"; };
+		81C442E81CDD1EF30060A350 /* client_954452056415-ut3v5dc64lvnfvbuqldb6elq2h1v5p46.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_954452056415-ut3v5dc64lvnfvbuqldb6elq2h1v5p46.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		81C443091CDD21550060A350 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		81C4430C1CDD24AF0060A350 /* Calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		81C4430F1CDD5FC20060A350 /* Google.apikey */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Google.apikey; sourceTree = "<group>"; };
 		86943A92FA83CD54469FFECC /* Pods_Corejenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Corejenda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D70FB61052E44C764D1EBB2 /* Pods-Corejenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Corejenda.release.xcconfig"; path = "Pods/Target Support Files/Pods-Corejenda/Pods-Corejenda.release.xcconfig"; sourceTree = "<group>"; };
-		AFE2510D7E10D1CF0B3B0CF7 /* Pods-CorejendaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CorejendaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CorejendaTests/Pods-CorejendaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DCCB8CF0F59525562BA801A2 /* Pods-CorejendaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CorejendaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CorejendaTests/Pods-CorejendaTests.release.xcconfig"; sourceTree = "<group>"; };
-		FC8EBE4379371223AB462796 /* Pods-Corejenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Corejenda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Corejenda/Pods-Corejenda.debug.xcconfig"; sourceTree = "<group>"; };
+		92971F54CFF1FB1875F8BBA6 /* Pods_Jenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jenda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F55B2F28BE88AAFD7DAF4C /* Pods-JendaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JendaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JendaTests/Pods-JendaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D080CB1364B74346611A377F /* Pods_JendaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JendaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BD1E8F64AF2176D6E661657 /* Pods_Corejenda.framework in Frameworks */,
+				2504110FA3741F1F4CB43C79 /* Pods_Jenda.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +109,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29EBC03C2516D5A7979284B7 /* Pods_CorejendaTests.framework in Frameworks */,
+				D926FA933A1EF8465341406A /* Pods_JendaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,10 +119,10 @@
 		16F3FBB8AD00DB48982A3A8B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FC8EBE4379371223AB462796 /* Pods-Corejenda.debug.xcconfig */,
-				9D70FB61052E44C764D1EBB2 /* Pods-Corejenda.release.xcconfig */,
-				AFE2510D7E10D1CF0B3B0CF7 /* Pods-CorejendaTests.debug.xcconfig */,
-				DCCB8CF0F59525562BA801A2 /* Pods-CorejendaTests.release.xcconfig */,
+				5FB0F46208FB18A13D2953AD /* Pods-Jenda.debug.xcconfig */,
+				34A0D1AECA6A2307FEE5C26B /* Pods-Jenda.release.xcconfig */,
+				A7F55B2F28BE88AAFD7DAF4C /* Pods-JendaTests.debug.xcconfig */,
+				1C4976D6114F82FBBF37EBED /* Pods-JendaTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -111,7 +130,6 @@
 		81A2752D1CA5ADB10088D28E = {
 			isa = PBXGroup;
 			children = (
-				81E65A721CD9A2B900AB69EB /* travis.yaml */,
 				81A275381CA5ADB10088D28E /* Jenda */,
 				81A2754D1CA5ADB10088D28E /* JendaTests */,
 				81A275371CA5ADB10088D28E /* Products */,
@@ -123,8 +141,8 @@
 		81A275371CA5ADB10088D28E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81A275361CA5ADB10088D28E /* Corejenda.app */,
-				81A2754A1CA5ADB10088D28E /* CorejendaTests.xctest */,
+				81A275361CA5ADB10088D28E /* Jenda.app */,
+				81A2754A1CA5ADB10088D28E /* JendaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +150,7 @@
 		81A275381CA5ADB10088D28E /* Jenda */ = {
 			isa = PBXGroup;
 			children = (
+				81C442E81CDD1EF30060A350 /* client_954452056415-ut3v5dc64lvnfvbuqldb6elq2h1v5p46.apps.googleusercontent.com.plist */,
 				817F40221CAAF89C001372EF /* test.json */,
 				81A275391CA5ADB10088D28E /* AppDelegate.swift */,
 				81A2753D1CA5ADB10088D28E /* Main.storyboard */,
@@ -141,6 +160,7 @@
 				81A275401CA5ADB10088D28E /* Assets.xcassets */,
 				81A275421CA5ADB10088D28E /* LaunchScreen.storyboard */,
 				81A275451CA5ADB10088D28E /* Info.plist */,
+				81C443091CDD21550060A350 /* GoogleService-Info.plist */,
 			);
 			name = Jenda;
 			path = Corejenda;
@@ -162,6 +182,8 @@
 				81A275651CA5B3D10088D28E /* Week.swift */,
 				81A275681CA5B3D80088D28E /* Day.swift */,
 				81A2756D1CA5B55E0088D28E /* Appointment.swift */,
+				81C4430C1CDD24AF0060A350 /* Calendar.swift */,
+				812661711CDEE0DE00DE1D81 /* Page.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -172,8 +194,9 @@
 				81B3C0A71CA6F98A00CAF732 /* AppointmentCell */,
 				81A275591CA5AE1B0088D28E /* LeftPageViewController.swift */,
 				81A2755F1CA5B29C0088D28E /* RightPageViewController.swift */,
-				81A275621CA5B38F0088D28E /* NavController.swift */,
 				81A275721CA5B7AB0088D28E /* MainViewController.swift */,
+				81009BAD1CE18D0C001EE515 /* NewAppointmentView.swift */,
+				81009BB01CE25753001EE515 /* ViewAppointmentView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -182,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				8107E0111CA86F1600075556 /* CalendarHelper.swift */,
+				81C4430F1CDD5FC20060A350 /* Google.apikey */,
 			);
 			name = DataLayer;
 			sourceTree = "<group>";
@@ -200,6 +224,8 @@
 			children = (
 				86943A92FA83CD54469FFECC /* Pods_Corejenda.framework */,
 				64396D2483E72AEE0E1C61EF /* Pods_CorejendaTests.framework */,
+				92971F54CFF1FB1875F8BBA6 /* Pods_Jenda.framework */,
+				D080CB1364B74346611A377F /* Pods_JendaTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,9 +233,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81A275351CA5ADB10088D28E /* Corejenda */ = {
+		81A275351CA5ADB10088D28E /* Jenda */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81A275531CA5ADB10088D28E /* Build configuration list for PBXNativeTarget "Corejenda" */;
+			buildConfigurationList = 81A275531CA5ADB10088D28E /* Build configuration list for PBXNativeTarget "Jenda" */;
 			buildPhases = (
 				AE13D5F31D315F17600EA460 /* Check Pods Manifest.lock */,
 				81A275321CA5ADB10088D28E /* Sources */,
@@ -222,14 +248,14 @@
 			);
 			dependencies = (
 			);
-			name = Corejenda;
+			name = Jenda;
 			productName = Corejenda;
-			productReference = 81A275361CA5ADB10088D28E /* Corejenda.app */;
+			productReference = 81A275361CA5ADB10088D28E /* Jenda.app */;
 			productType = "com.apple.product-type.application";
 		};
-		81A275491CA5ADB10088D28E /* CorejendaTests */ = {
+		81A275491CA5ADB10088D28E /* JendaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81A275561CA5ADB10088D28E /* Build configuration list for PBXNativeTarget "CorejendaTests" */;
+			buildConfigurationList = 81A275561CA5ADB10088D28E /* Build configuration list for PBXNativeTarget "JendaTests" */;
 			buildPhases = (
 				D80EE1440D512D6062E48E0A /* Check Pods Manifest.lock */,
 				81A275461CA5ADB10088D28E /* Sources */,
@@ -243,9 +269,9 @@
 			dependencies = (
 				81A2754C1CA5ADB10088D28E /* PBXTargetDependency */,
 			);
-			name = CorejendaTests;
+			name = JendaTests;
 			productName = CorejendaTests;
-			productReference = 81A2754A1CA5ADB10088D28E /* CorejendaTests.xctest */;
+			productReference = 81A2754A1CA5ADB10088D28E /* JendaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -280,8 +306,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81A275351CA5ADB10088D28E /* Corejenda */,
-				81A275491CA5ADB10088D28E /* CorejendaTests */,
+				81A275351CA5ADB10088D28E /* Jenda */,
+				81A275491CA5ADB10088D28E /* JendaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,9 +318,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				81A275441CA5ADB10088D28E /* LaunchScreen.storyboard in Resources */,
+				81C4430A1CDD21550060A350 /* GoogleService-Info.plist in Resources */,
 				81A275761CA5BA380088D28E /* AppointmentCell.xib in Resources */,
+				81C443101CDD5FC20060A350 /* Google.apikey in Resources */,
+				81C442E91CDD1EF30060A350 /* client_954452056415-ut3v5dc64lvnfvbuqldb6elq2h1v5p46.apps.googleusercontent.com.plist in Resources */,
 				817F40231CAAF89C001372EF /* test.json in Resources */,
-				81E65A731CD9A2B900AB69EB /* travis.yaml in Resources */,
 				81A275411CA5ADB10088D28E /* Assets.xcassets in Resources */,
 				81A2753F1CA5ADB10088D28E /* Main.storyboard in Resources */,
 			);
@@ -305,7 +333,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				81A275771CA5BA380088D28E /* AppointmentCell.xib in Resources */,
-				81E65A741CD9A2C300AB69EB /* travis.yaml in Resources */,
+				81C4430B1CDD21550060A350 /* GoogleService-Info.plist in Resources */,
+				81C443111CDD5FC20060A350 /* Google.apikey in Resources */,
+				81C442EA1CDD1EF30060A350 /* client_954452056415-ut3v5dc64lvnfvbuqldb6elq2h1v5p46.apps.googleusercontent.com.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +354,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Corejenda/Pods-Corejenda-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jenda/Pods-Jenda-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6C8394F7CECE994544D121CC /* Embed Pods Frameworks */ = {
@@ -339,7 +369,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CorejendaTests/Pods-CorejendaTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JendaTests/Pods-JendaTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		71C175E748BF39C60A890476 /* Copy Pods Resources */ = {
@@ -354,7 +384,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CorejendaTests/Pods-CorejendaTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JendaTests/Pods-JendaTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7E05DA4570A6CFA4A13E4D48 /* Copy Pods Resources */ = {
@@ -369,7 +399,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Corejenda/Pods-Corejenda-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jenda/Pods-Jenda-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AE13D5F31D315F17600EA460 /* Check Pods Manifest.lock */ = {
@@ -409,9 +439,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81C4430D1CDD24AF0060A350 /* Calendar.swift in Sources */,
 				81A275691CA5B3D80088D28E /* Day.swift in Sources */,
-				81A275631CA5B38F0088D28E /* NavController.swift in Sources */,
+				81009BB11CE25753001EE515 /* ViewAppointmentView.swift in Sources */,
+				812661721CDEE0DE00DE1D81 /* Page.swift in Sources */,
 				81A2755A1CA5AE1B0088D28E /* LeftPageViewController.swift in Sources */,
+				81009BAE1CE18D0C001EE515 /* NewAppointmentView.swift in Sources */,
 				81A2756E1CA5B55E0088D28E /* Appointment.swift in Sources */,
 				81A2755D1CA5B0290088D28E /* AppointmentCell.swift in Sources */,
 				81A275601CA5B29C0088D28E /* RightPageViewController.swift in Sources */,
@@ -427,10 +460,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				81A2756A1CA5B3D80088D28E /* Day.swift in Sources */,
-				81A275641CA5B38F0088D28E /* NavController.swift in Sources */,
+				81C4430E1CDD24AF0060A350 /* Calendar.swift in Sources */,
 				81A2755B1CA5AE1B0088D28E /* LeftPageViewController.swift in Sources */,
+				812661731CDEE0DE00DE1D81 /* Page.swift in Sources */,
+				81009BAF1CE18D0C001EE515 /* NewAppointmentView.swift in Sources */,
 				81A2756F1CA5B55E0088D28E /* Appointment.swift in Sources */,
 				81A2755E1CA5B0290088D28E /* AppointmentCell.swift in Sources */,
+				81009BB21CE25753001EE515 /* ViewAppointmentView.swift in Sources */,
 				81A275611CA5B29C0088D28E /* RightPageViewController.swift in Sources */,
 				81A2754F1CA5ADB10088D28E /* CorejendaTests.swift in Sources */,
 				81A275671CA5B3D10088D28E /* Week.swift in Sources */,
@@ -442,7 +478,7 @@
 /* Begin PBXTargetDependency section */
 		81A2754C1CA5ADB10088D28E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 81A275351CA5ADB10088D28E /* Corejenda */;
+			target = 81A275351CA5ADB10088D28E /* Jenda */;
 			targetProxy = 81A2754B1CA5ADB10088D28E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -504,9 +540,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = Pods/GoogleAPIClient/Headers/Core;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -545,8 +583,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = Pods/GoogleAPIClient/Headers/Core;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -556,13 +596,14 @@
 		};
 		81A275541CA5ADB10088D28E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC8EBE4379371223AB462796 /* Pods-Corejenda.debug.xcconfig */;
+			baseConfigurationReference = 5FB0F46208FB18A13D2953AD /* Pods-Jenda.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "GTL_BUILT_AS_FRAMEWORK=1";
 				INFOPLIST_FILE = Corejenda/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = MCTC.Corejenda;
+				PRODUCT_BUNDLE_IDENTIFIER = MCTC.Jenda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -571,13 +612,14 @@
 		};
 		81A275551CA5ADB10088D28E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D70FB61052E44C764D1EBB2 /* Pods-Corejenda.release.xcconfig */;
+			baseConfigurationReference = 34A0D1AECA6A2307FEE5C26B /* Pods-Jenda.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "GTL_BUILT_AS_FRAMEWORK=1";
 				INFOPLIST_FILE = Corejenda/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = MCTC.Corejenda;
+				PRODUCT_BUNDLE_IDENTIFIER = MCTC.Jenda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
@@ -585,7 +627,7 @@
 		};
 		81A275571CA5ADB10088D28E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFE2510D7E10D1CF0B3B0CF7 /* Pods-CorejendaTests.debug.xcconfig */;
+			baseConfigurationReference = A7F55B2F28BE88AAFD7DAF4C /* Pods-JendaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CorejendaTests/Info.plist;
@@ -598,7 +640,7 @@
 		};
 		81A275581CA5ADB10088D28E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCCB8CF0F59525562BA801A2 /* Pods-CorejendaTests.release.xcconfig */;
+			baseConfigurationReference = 1C4976D6114F82FBBF37EBED /* Pods-JendaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CorejendaTests/Info.plist;
@@ -621,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81A275531CA5ADB10088D28E /* Build configuration list for PBXNativeTarget "Corejenda" */ = {
+		81A275531CA5ADB10088D28E /* Build configuration list for PBXNativeTarget "Jenda" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81A275541CA5ADB10088D28E /* Debug */,
@@ -630,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81A275561CA5ADB10088D28E /* Build configuration list for PBXNativeTarget "CorejendaTests" */ = {
+		81A275561CA5ADB10088D28E /* Build configuration list for PBXNativeTarget "JendaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81A275571CA5ADB10088D28E /* Debug */,

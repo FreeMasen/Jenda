@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Corejenda.xcscheme</key>
+		<key>Pods-Jenda.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-CorejendaTests.xcscheme</key>
+		<key>Pods-JendaTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>05BC786876329FE66A3C380D75E92E86</key>
+		<key>0FC0986BB8FB516FF4690C4596EC5417</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>544779B114CD926DB5254F95D50A080E</key>
+		<key>4909B954E129BD958BD4DF8F355D2BC5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8DF26AEA9E0015E3F2A320908D8CFC2C</key>
+		<key>B2528D9E01CE00CBAAC7B54BB42CE41C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
