@@ -14,6 +14,7 @@
 		81009BB11CE25753001EE515 /* ViewAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81009BB01CE25753001EE515 /* ViewAppointmentView.swift */; };
 		81009BB21CE25753001EE515 /* ViewAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81009BB01CE25753001EE515 /* ViewAppointmentView.swift */; };
 		8107E0121CA86F1600075556 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8107E0111CA86F1600075556 /* CalendarHelper.swift */; };
+		81120A6F1CE4FEB3000F4102 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 81120A6E1CE4FEB3000F4102 /* .gitignore */; };
 		812661721CDEE0DE00DE1D81 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812661711CDEE0DE00DE1D81 /* Page.swift */; };
 		812661731CDEE0DE00DE1D81 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812661711CDEE0DE00DE1D81 /* Page.swift */; };
 		817F40231CAAF89C001372EF /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 817F40221CAAF89C001372EF /* test.json */; };
@@ -66,6 +67,7 @@
 		81009BAD1CE18D0C001EE515 /* NewAppointmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAppointmentView.swift; sourceTree = "<group>"; };
 		81009BB01CE25753001EE515 /* ViewAppointmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAppointmentView.swift; sourceTree = "<group>"; };
 		8107E0111CA86F1600075556 /* CalendarHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		81120A6E1CE4FEB3000F4102 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		812661711CDEE0DE00DE1D81 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		817F40221CAAF89C001372EF /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = SOURCE_ROOT; };
 		81A275361CA5ADB10088D28E /* Jenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +163,7 @@
 				81A275421CA5ADB10088D28E /* LaunchScreen.storyboard */,
 				81A275451CA5ADB10088D28E /* Info.plist */,
 				81C443091CDD21550060A350 /* GoogleService-Info.plist */,
+				81120A6E1CE4FEB3000F4102 /* .gitignore */,
 			);
 			name = Jenda;
 			path = Corejenda;
@@ -324,6 +327,7 @@
 				81C442E91CDD1EF30060A350 /* client_954452056415-ut3v5dc64lvnfvbuqldb6elq2h1v5p46.apps.googleusercontent.com.plist in Resources */,
 				817F40231CAAF89C001372EF /* test.json in Resources */,
 				81A275411CA5ADB10088D28E /* Assets.xcassets in Resources */,
+				81120A6F1CE4FEB3000F4102 /* .gitignore in Resources */,
 				81A2753F1CA5ADB10088D28E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
