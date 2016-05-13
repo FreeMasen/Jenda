@@ -22,7 +22,7 @@ See, here is the new event we created.
 
 Code
 -------
-Models
+####Models
 
 Our Appointment class represents the google event information
 
@@ -88,7 +88,7 @@ class Day {
         Date = date
         Appointments = appointments
     }
-
+```
 
 Our Page class represents a collection of days on one page
 either .Left or .Right
@@ -206,4 +206,124 @@ static func sendNewEventToServer(appointment: Appointment, responseHandler: (app
         
     }
 ```
-Views
+####Views
+
+MainView
+
+First when the main view loads it adds 3 observer and registers
+our defaults for the number of days being requested and whether or 
+not the user has authorized google signin
+
+the observers help allow the application to perform asynchronus 
+activities w/o having to replicate objects here. It then
+
+
+``` swift 
+override func viewDidLoad() { 
+10         super.viewDidLoad() 
+11         let center = NSNotificationCenter.defaultCenter() 
+12         center.addObserver(self, selector: #selector(respondToTokenSetting), name: "tokenSet", object: nil) 
+13         center.addObserver(self, selector: #selector(respondToKeySetting), name: "keySet", object: nil) 
+14         center.addObserver(self, selector: #selector(respondToDayRetrival), name: "daysRetrived", object: nil) 
+15         let defaults = NSUserDefaults() 
+16         defaults.registerDefaults(["DaysBeforeAndAfter": 5, "signedIn": false]) 
+17         GIDSignIn.sharedInstance().uiDelegate = self 
+18         if defaults.boolForKey("signedIn") { 
+19             GIDSignIn.sharedInstance().signInSilently() 
+20         } else { 
+21             GIDSignIn.sharedInstance() .signIn() 
+22         } 
+23     } 
+```
+
+These observers call the following series:
+If the User's Token is aquired, attempt 
+to capture the api key from our keystore.
+If the key is captured from the file attempt
+to fetch the events from the server.
+If the days are successfully captured
+choose which view to trasition to.
+
+``` swift
+func chooseDisplay() { 
+50         guard let calendar = Calendar.SharedCalendar() else { return } 
+51         if calendar.pages.count > 0 { 
+52             let today = calendar.currentPage 
+53             if today.pageSide == .Left { 
+54                 performSegueWithIdentifier("MainToLeft", sender: self) 
+55             } else { 
+56                 performSegueWithIdentifier("MainToRight", sender: self) 
+57             } 
+58         } else { 
+59             self.warningMessage.text = "Error in requesting your events." 
+60         } 
+61     } 
+62      
+63     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) { 
+64         if let nextView = segue.destinationViewController as? LeftPageViewController { 
+65             nextView.page = Calendar.SharedCalendar()?.currentPage 
+66         } else if let nextview = segue.destinationViewController as? RightPageViewController { 
+67             nextview.page = Calendar.SharedCalendar()?.currentPage 
+68         } 
+69     } 
+```
+
+If the page is .Left, show the left view, if the page is
+.Right show the right veiw. 
+
+Left/Right View
+
+Below you see our left view, the right view is essentially the same
+but includes one additional day variable.
+
+
+on loading the vie sets it's Page and PageIndex
+to the current page in our shared calendar object
+and sets up the dataSource for each of the tableView object
+It also sets our labels as a heading to the tableViews
+
+``` swift 
+override func viewDidLoad() { 
+17         super.viewDidLoad() 
+18         mondayTable.registerNib(UINib(nibName: "AppointmentCell", bundle: nil), forCellReuseIdentifier: "AppointmentCell") 
+19         tuesdayTable.registerNib(UINib(nibName: "AppointmentCell", bundle: nil), forCellReuseIdentifier: "AppointmentCell") 
+20         wednesdayTable.registerNib(UINib(nibName: "AppointmentCell", bundle: nil), forCellReuseIdentifier: "AppointmentCell") 
+21         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(reloadTables), name: "NewEventAdded", object: nil) 
+22         if let calendar = Calendar.SharedCalendar() { 
+23             self.calendar = calendar 
+24             self.page = calendar.currentPage 
+25             self.monday = page.days[0].Appointments 
+26             mondayLabel.text = "Monday, \(NSDateFormatter.localizedStringFromDate(page.days[0].Date, dateStyle: .LongStyle, timeStyle: .NoStyle))" 
+27             self.tuesday = page.days[1].Appointments 
+28             tuesdayLabel.text = "Tuesday, \(NSDateFormatter.localizedStringFromDate(page.days[1].Date, dateStyle: .LongStyle, timeStyle: .NoStyle))" 
+29             self.wednesday = page.days[2].Appointments 
+30             self.wednesdayLabel.text = "Wednesday, \(NSDateFormatter.localizedStringFromDate(page.days[2].Date, dateStyle: .LongStyle, timeStyle: .NoStyle))" 
+31              
+```
+It then builds a cell based on the array of 
+appointments.
+
+When it trasitions to another view it determines
+if we need to increase or decrease the currentDay index
+for our shared calendar and passes the new
+day to the new controller.
+
+``` swift
+override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) { 
+139         if let nextView = segue.destinationViewController as? RightPageViewController { 
+140             guard let up = sender as? Bool else { return } 
+141             if up { 
+142                 self.calendar.nextPage() 
+143             } else { 
+144                 calendar.previousPage() 
+145             } 
+146             nextView.page = self.calendar.currentPage 
+147              
+148         } else if let nextView = segue.destinationViewController as? NewAppointmentViewController { 
+149             let day = sender as! Day 
+150             nextView.day = day 
+151         } else if let nextView = segue.destinationViewController as? ViewAppointmentViewController, appointment = sender as? Appointment { 
+152             nextView.appointment = appointment 
+153         } 
+154     } 
+```
